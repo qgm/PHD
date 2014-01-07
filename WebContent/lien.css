@@ -1,0 +1,37 @@
+a
+{
+color: Tan;
+}
+ a:hover
+{
+   text-decoration: underline;
+   color: DarkRed;
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+    border: 1px dotted DarkRed;
+}
+
+a:visited
+{
+	color: Tan;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: DarkGreen;
+	border-bottom: 1px solid DarkRed;
+	padding: 2px;
+}
+
+ .intxt
+ {
+ text-decoration: none;
+ }
+
+ .intxt:hover
+ {
+ text-decoration: underline;
+ color:DarkRed;
+ }

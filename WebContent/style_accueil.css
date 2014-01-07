@@ -1,0 +1,121 @@
+@import url("body.css");
+
+@import url("header.css");
+
+@import url("nav.css");
+
+@import url("lien.css");
+
+@import url("form.css");
+
+@import url("footer.css");
+ /* Pour afficher le message "vous devez être connecté
+*/
+
+
+#interdiction
+{
+width:1000px;
+display: none;
+text-align:center;
+color:Darkred;
+font-weight:bold;
+}
+
+#interdiction:target
+{
+display: block;
+}
+
+
+ #presentation, #presentation h3
+ {
+ /*padding-top: 20px;*/ /*si nav1?*/
+ padding-left: 25px;
+ }
+
+
+
+ section
+ {
+ position: relative;
+ padding-left: 25px;
+ margin-bottom: 200px;
+ }
+
+ #derniers_quizzs, aside
+ {
+ display: inline-block;
+ vertical-align: top;
+ }
+
+ #derniers_quizzs p
+ {
+ font-style: italic;
+ padding-left: 15px;
+ }
+
+ aside
+ {
+ position: absolute;
+ right: 40px;
+ top: 5px;
+ }
+
+ fieldset
+ {
+ width: 330px;
+ text-align: right;
+ }
+
+ fieldset .inscription
+ {
+ text-align: center;
+ }
+
+ .bouton_rouge
+{
+    display: inline-block;
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+	}
+
+#formulaire input[type="submit"]
+	{
+	margin-top: 15px;
+	} 
+
+/* plus nécessaire sur la page d'accueil
+
+#derniers_quizzs ul
+ {
+ list-style-type:none;
+ }
+#derniers_quizzs li
+ {
+ font-size: 17px;
+ margin-top: 15px;
+ }
+
+#derniers_quizzs a
+ {
+ text-decoration:none;
+ }
+
+ #derniers_quizzs a:hover
+ {
+ text-decoration:underline;
+ color:DarkRed;
+ }
+*/
+

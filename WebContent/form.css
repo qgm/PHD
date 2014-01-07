@@ -1,0 +1,31 @@
+#formulaire input[type="submit"]
+{
+	font-weight:bold;
+	background-color: #80f347;
+	border: #DDEEFF 1px solid;
+	border-radius: 5px;
+	width: 35%;
+	margin-right:3px;
+}
+
+#formulaire input[type="submit"]:hover
+{
+	/*background-color: DarkRed;*/
+	color: DarkRed;
+	cursor: pointer;
+}
+
+#formulaire input[type="text"]
+{
+	border-radius: 5px;
+}
+
+#formulaire input[type="password"]
+{
+	border-radius: 5px;
+}
+
+#formulaire input[type="email"]
+{
+	border-radius: 5px;
+}

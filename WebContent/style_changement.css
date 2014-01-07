@@ -1,0 +1,41 @@
+@import url("body.css");
+
+@import url("header.css");
+
+@import url("nav.css");
+
+@import url("lien.css");
+
+@import url("form.css");
+
+@import url("footer.css");
+
+  section
+ {
+ position: relative;
+ padding-left: 55px;
+ margin-top: 55px;
+ margin-bottom: 130px;
+ }
+
+ section fieldset
+ {
+ width: 510px;
+ text-align: left;
+ }
+
+ section fieldset p
+ {
+ margin-left: 25px;
+ }
+
+ #presentation
+ {
+ margin-top: 40px;
+ margin-bottom: 70px;
+ }
+
+#presentation, #presentation h3
+ {
+ padding-left: 25px;
+ }

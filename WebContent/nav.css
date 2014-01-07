@@ -1,0 +1,29 @@
+ nav
+ {
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(100,168,100)), to(rgb(40,80,40)));
+	padding:1px;
+	margin-top:-9px;
+	margin-bottom: 40px;
+	width: 998px;
+	border: 1px solid Navy;
+ }
+
+ nav li
+ {
+ display:inline-block;
+ font-size: 17px;
+ margin-right: 65px;
+ }
+
+ nav li a
+ {
+	display: block;
+    padding: 0 20px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+ }
+ nav a:hover
+{
+   color: DarkRed;
+}

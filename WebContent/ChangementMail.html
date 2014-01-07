@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title> PHD - Changer mon adresse e-mail </title>
+<link rel="stylesheet" href="style_changement.css">
+</head>
+<body>
+<div id="page_interieure">
+
+<header>
+<img src="images/logoPHD.png" alt="logo as" id="logo">
+	<div id="titre">
+	<h1> Poker Hand Database</h1>
+	<h2> Sauriez-vous jouer toutes ces mains? </h2>
+	</div>
+</header>
+
+<nav>
+<ul>
+	<li><a href="deconnexion.do">Accueil</a></li>
+	<li><a href="/PHD/EspaceMembre">Espace Membre</a></li>
+	<li><a href="CreerQuizz.jsp">Créer mon quizz</a></li>
+	<li><a href="Recherche.jsp">Rechercher un quizz</a></li>
+</ul>
+</nav>
+
+<div id="presentation">
+<h3> Modifications</h3>
+<p>Vous pouvez modifier votre adresse mail ici
+</p>
+</div>
+
+<!-- formulaire de changement d'adresse e-mail -->
+<section>
+<form id="formulaire" method="post" action="changerMail.do">
+
+   <fieldset>
+       <legend> Changer mon adresse e-mail </legend>
+          <p>
+	        <label> Nouvelle adresse e-mail : </label>
+	        <input type="email" name="email" id="email" />
+	      </p>
+	      <p>
+	        <label> Saisir votre mot de passe : </label>
+	        <input type="password" name="password" id="password" />
+          <p>
+            <input type="submit" value="Confirmer" />
+          </p>
+   </fieldset>
+
+</form>
+
+  <p>
+     <a href="/PHD/EspaceMembre"> Retour à l'espace membre </a>
+  </p>
+</section>
+
+
+<footer>
+    <p>
+    <img src="images/env.jpeg" alt="enveloppe" id="env">
+	<a href="mailto:tanguy.jovet@etu.enseeiht.fr"> Contact us </a></p>
+<footer/>
+
+</div>
+</body>
+</html>

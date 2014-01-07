@@ -1,0 +1,123 @@
+@import url("body.css");
+
+@import url("header.css");
+
+@import url("lien.css");
+
+@import url("nav.css");
+
+@import url("form.css");
+
+@import url("footer.css");
+
+ #presentation, #presentation h3
+ {
+ padding-left: 45px;
+ }
+
+ #presentation
+ {
+ margin-top: 40px;
+ margin-bottom: 70px;
+ }
+
+  #erreur, .erreur
+ {
+ text-align: center;
+ color: DarkRed;
+ font-weight: bold;
+ }
+
+   section
+ {
+ position: relative;
+ padding-left: 25px;
+ margin-bottom: 150px;
+ margin-left: 50px;
+ }
+
+  section fieldset
+ {
+ width: 750px;
+ padding-left: 30px;
+ }
+
+ section fieldset legend
+ {
+ text-align: center;
+ }
+
+section #donnees
+ {
+ color: Navy;
+ text-align: left;
+ padding-left: 10px;
+ }
+ 
+section #donnees .info
+	{
+	color: black;
+ 	font-style: italic;
+	}
+
+
+ #donnees, #situation
+{
+ margin-bottom: 30px;
+}
+ #donnees ul
+ {
+ list-style-type:none;
+ }
+ #donnees li
+ {
+ display:inline-block;
+ text-align: center;
+ vertical-align: top;
+ margin-right: 75px;
+ margin-bottom: 25px;
+ }
+
+ #champ
+ {
+ margin-left: 40px;
+ }
+
+ #situation ul
+ {
+ list-style-type:none;
+ }
+ #situation li
+ {
+ display:inline-block;
+ text-align: left;
+ vertical-align: top;
+ margin-right: 35px;
+ margin-bottom: 25px;
+ }
+
+ em
+{
+color:Navy;
+font-weight: bold;
+}
+
+ .creation
+ {
+width: 770px;
+text-align: center;
+ }
+
+ .retour
+{
+width:750px;
+margin-top: 75px;
+text-align:right;
+}
+
+ .erreur
+ {
+ text-align: center;
+ color: DarkRed;
+ font-weight: bold;
+ }

@@ -1,0 +1,19 @@
+ footer
+ {
+ background: url('images/separateur.png') repeat-x top;
+ text-align: right;
+}
+
+ footer p
+ {
+ padding: 20px;
+
+ padding-right: 50px;
+ /*padding-bottom: 15px;
+ */
+ }
+ 
+ footer #env
+ {
+ margin-right: 15px;
+ } 

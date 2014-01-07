@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title> PHD - Accueil </title>
+<link rel="stylesheet" href="style_accueil.css">
+</head>
+
+<body>
+<div id="page_interieure">
+
+<!-- Les balises header, nav, div, aside, section et footer permettent de gérer le positionnement en css-->
+<header>
+<img src="images/logoPHD.png" alt="logo as" id="logo">
+	<div id="titre">
+	<h1> Poker Hand Database</h1>
+	<h2> Sauriez-vous jouer toutes ces mains? </h2>
+	</div>
+</header>
+
+<nav>
+<ul>
+	<li><a href="#">Accueil</a></li>
+	<li><a href="#interdiction">Espace Membre</a></li>
+	<li><a href="#interdiction">Créer mon quizz</a></li>
+	<li><a href="#interdiction">Rechercher un quizz</a></li>
+</ul>
+</nav>
+
+<!-- que si on utilise nav1.css--
+<div id="sous_nav">
+<div id="inutile">
+<p>ce texte n'est pas affiché</p>
+</div>
+</div>
+<!------------------------------->
+
+<div id="interdiction"> <br/><br/><br/><br/>Vous devez être connecté pour afficher cette page !<br/><br/><br/><br/><br/><br/><br/><br/></div>
+
+
+<div id="presentation">
+<h3> Accueil </h3>
+<p>Ce site communautaire de Poker vous propose de <a href="#interdiction" class="intxt">créer</a> vos analyses de main sous forme de quizzs et de répondre aux <a href="#interdiction" class="intxt">quizzs</a> soumis par les autres membres
+</p>
+</div>
+
+<section>
+
+	<div id="derniers_quizzs">
+	<!-- Rien pour l'instant à l'intérieur -->
+	<h4>Voici les derniers quizzs qui ont été postés :</h4>
+		<p>
+		<br />
+                Vous devez vous connecter pour accéder à ces quizzs.
+		<br />
+		<br />
+		</p>
+	</div>
+
+	<aside>
+	<!-- formulaire de connexion -->
+	<form id="formulaire" method="post" action="connexion.do"> <!-- servlet connexion à coder -->
+
+		<fieldset>
+			<legend> Connexion </legend>
+			<p>
+			<label for="id"> Pseudo : </label>
+			<input type="text" name="id" id="id" /><br />
+			<label for="password"> Mot de passe : </label>
+			<input type="password" name="password" id="password" /> <br />
+			<input type="submit" value="Se connecter" />
+			</p>
+		</fieldset>
+
+	</form>
+
+	<!-- lien vers la page d'inscription -->
+   <fieldset>
+       <legend> Inscription </legend>
+          <p class="inscription">Pas encore membre?<br/>
+            <a href="Inscription.jsp" class="bouton_rouge"> S'inscrire </a>
+          </p>
+   </fieldset>
+
+	</aside>
+
+</section>
+
+<footer>
+    <p>
+    <img src="images/env.jpeg" alt="enveloppe" id="env">
+	<a href="mailto:tanguy.jovet@etu.enseeiht.fr"> Contact us </a></p>
+<footer/>
+
+</div>
+</body>
+
+</html>

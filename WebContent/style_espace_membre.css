@@ -1,0 +1,73 @@
+@import url("body.css");
+
+@import url("header.css");
+
+@import url("nav.css");
+
+@import url("lien.css");
+
+@import url("form.css");
+
+@import url("footer.css");
+
+
+ #presentation, #presentation h3
+ {
+ padding-left: 25px;
+ }
+
+  section
+ {
+ position: relative;
+ padding-left: 25px;
+ margin-bottom: 250px;
+ }
+
+ #derniers_quizzs, aside
+ {
+ display: inline-block;
+ vertical-align: top;
+ }
+
+ #derniers_quizzs p
+ {
+ font-style: italic;
+ padding-left: 15px;
+ }
+
+ aside
+ {
+ position: absolute;
+ right: 40px;
+ top: 5px;
+ }
+
+ fieldset
+ {
+ width: 280px;
+ text-align: right;
+ }
+
+ section #derniers_quizzs fieldset
+ {
+ width: 400px;
+ text-align: center;
+ }
+
+ fieldset .mon_compte
+ {
+ color: Navy;
+ text-align: left;
+ padding-left: 10px;
+ }
+
+ fieldset .info
+ {
+ color: black;
+ font-style: italic;
+ }
+
+ fieldset .options
+ {
+ font-size: 0.9em;
+ }

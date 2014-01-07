@@ -1,0 +1,53 @@
+@import url("body.css");
+
+@import url("header.css");
+
+@import url("lien.css");
+
+@import url("form.css");
+
+@import url("footer.css");
+
+ #presentation, #presentation h3
+ {
+ padding-left: 45px;
+ }
+
+  section
+ {
+ position: relative;
+ padding-left: 25px;
+ margin-bottom: 150px;
+ margin-left: 150px;
+ }
+
+ section fieldset
+ {
+ width: 400px;
+ text-align: right;
+ padding-right: 30px;
+ }
+
+ section fieldset legend
+ {
+ text-align: center;
+ }
+
+ #erreur
+ {
+ text-align: center;
+ color: DarkRed;
+ font-weight: bold;
+ }
+
+ .inscrire
+ {
+width: 400px;
+text-align: center;
+ }
+
+.retour
+{
+width:700px;
+text-align:right;
+}
